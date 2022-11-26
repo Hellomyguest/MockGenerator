@@ -1,6 +1,6 @@
 # MockGenerator
 
-This generator creates an array of objects, each object has the following structure:
+This generator creates a JSON string, after parse you will get an array of objects, each object has the following structure:
 id: UUID, type: string
 customer: full name, type: string
 date: date from 01.01.2021 till now in ISO 8601 extended format, type: string

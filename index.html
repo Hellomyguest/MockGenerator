@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/index.css" />
+    <title>Mocks generator</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Mocks generator</h1>
+      <div class="inputWrapper">
+        <div class="input">
+          <label class="input__label" for="input-text"
+            >Введите кол-во записей</label
+          >
+          <div class="input__area">
+            <input
+              class="input__text-field"
+              id="length"
+              type="number"
+              min="1"
+              max="500"
+              placeholder="От 1 до 500"
+              
+            />
+          </div>
+        </div>
+        <button id="submit" class="button button_size_medium button_color_blue">
+          Сгенерировать
+        </button>
+      </div>
+      <div class="textareaWrapper">
+      <textarea class="textarea" id="mocks" rows="20"></textarea>
+      <button id="clear" class="button button_size_medium button_color_blue">
+        Сбросить
+      </button>
+    </div>
+      
+    </div>
+    <script src="script/values.js"></script>
+    <script src="script/index.js"></script>
+  </body>
+</html>
