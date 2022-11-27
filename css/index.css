@@ -132,6 +132,7 @@ input::-webkit-inner-spin-button {
 .textarea {
   border: 0.0625rem solid var(--primary-border-color);
   border-radius: 0.25rem;
+  overflow-x:hidden
 }
 
 .textarea:focus {
